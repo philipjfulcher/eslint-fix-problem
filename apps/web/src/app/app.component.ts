@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { hello } from '../../../../libs/utils/hello/src/lib/hello';
 
 @Component({
   selector: 'eslint-fix-problem-root',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  title = 'web';
+  title = hello('web');
 }

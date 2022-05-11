@@ -1,6 +1,8 @@
 {
   "version": 2,
   "projects": {
+    "utils-hello": "libs/utils/hello",
+    "utils-hello-again": "libs/utils/hello-again",
     "web": "apps/web",
     "web-e2e": "apps/web-e2e"
   }
